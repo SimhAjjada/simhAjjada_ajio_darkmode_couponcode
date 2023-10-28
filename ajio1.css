@@ -1,0 +1,167 @@
+.navbar{
+    display: flex;
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    align-items: flex-start;
+
+    
+}
+body{
+    background-color:white;
+    color: black;
+}
+
+.mydark{
+    background-color:black;
+    color:white;
+    
+}
+#coupon{
+    height:400px;
+    width:600px;
+    background-image: url('https://i.ibb.co/qpdKN00/M-1-0-UHP-27102023-Main-Banner-5090-Night-Version.gif');
+    position: absolute;
+    object-position: center;
+    margin-left: 350px;
+    z-index: 100;
+    visibility:hidden;
+    margin-top: -70px;
+}
+
+.logo{
+    width: 20%;  
+  
+   
+}
+   
+
+.logoimage{
+    width:150px;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+
+.type{
+    margin-top: 5%;
+    font-family: sans-serif;
+    color: rgb(51, 51, 51);
+    height: 50px;
+    font-size: 16px;
+    width: 850px;
+    display: inline-block;
+    margin-left: 250px;
+    
+    
+    
+   
+    
+    
+}
+.type2{
+    margin-right: 5%;
+    float: left;
+    
+    
+}
+.searchbar{
+   
+    margin-top: 5%;
+    margin-left: 30px;
+    width: 35%;
+    
+   
+    
+   
+}
+
+.searchbar2{
+    border-radius: 20%;
+    font-family: Helvetica,sans-serif;
+    font-weight: 250;
+    border: 1px solid #2c4152;
+    border-radius: 20px;
+    width: 100%;
+    padding: 0 80px 0 12px;
+    background-color: #fffded;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    height: 40px;
+   
+    font-size: 18px;
+    
+}
+
+.darkTheme{
+   float: right;
+  
+   position: relative;
+   margin-left: 60px;
+   color: rgb(16, 15, 15);
+   background-color: rgb(174, 169, 169);
+  
+ 
+}
+
+
+
+.footer{
+    background-color: #2c4152;
+    height: 700px;
+    width: 100%;
+}
+
+.ftrcontainer{
+    float: left;
+    height: 300px;
+    width: 20%;
+    color: #ccc;
+    margin-left: 3%;
+    margin-top: 40px;
+    
+}    
+
+h3{
+    margin-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+h4{
+    font-size: 16px;
+    font-weight: lighter;
+   
+}
+
+.imgfix{
+    width: 100%;
+}
+
+.imageslide{
+    height: 500px;
+    
+}
+.imgSlider{
+    width: 100%;
+}
+
+.imageslide2{
+    height: 500px;
+}
+.imgSlider2{
+    width: 100%;
+}
+.imageslider3{
+    height: 500px;
+}
+.imgSlider3{
+    width: 100%;
+}
+
+.sidebysideimg{
+   width: 24%;
+  
+}
+.sidebysideimg2{
+    width: 33%; 
+}

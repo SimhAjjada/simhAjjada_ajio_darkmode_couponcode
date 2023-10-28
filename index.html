@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="ajio1.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="ajio2.js"></script>
+        <script>
+            const changeMode = () => {
+            let mybody = document.body;
+            mybody.classList.toggle('mydark');
+           }
+        </script>
+    </head>
+    <body class="ajioShopping">
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" alt="ajio logo" class="logoimage">
+                </div>
+                <div class="type">
+                    <h4 class="type2">MEN</h4>
+                    <h4 class="type2">WOMEN</h4>
+                    <h4 class="type2">KIDS</h4>
+                    <h4 class="type2">INDIE</h4>
+                    <h4 class="type2">HOME AND KITCHEN</h4>   
+                </div>
+                <div class="searchbar">
+                    <input class="searchbar2" type="text" placeholder="Search AJIO"/>
+                </div>
+            </div>
+        </header>
+        <div class="diwaliCoupon">
+            <button onClick="changeMode()" class="darkTheme">Mode</button>
+
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-28092023-UrgencyStrips-Z1-Last100.gif"
+             alt="hurry" class="imgfix">
+
+        </div>
+        <div class="image-slider-container">
+            <div id="coupon">
+                <button onClick="closeCoupon()">&times;</button>
+            </div>
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                    <li data-target="#devCarousel" data-slide-to="4"></li>
+                    <li data-target="#devCarousel" data-slide-to="5"></li>
+                    <li data-target="#devCarousel" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Mainbanner-Z1-AllStarsSale-5090%20(2).gif
+                         " alt="food" class="imgSlider"/>
+                    </div>
+                    <div class="item" class="imageslide">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-MainBannerDailyChanging-Z1-P2-Nikeadidas-upto45.jpg
+                         " alt="food" class="imgSlider"/>
+                    </div>
+                    <div class="item" class="imageslide">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-MainBannerDailyChanging-Z1-P3-MnsStevemadden-upto60.jpg
+                        " alt="food" class="imgSlider"/>
+                    </div>
+
+                    <div class="item"  class="imageslide">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-MainBannerDailyChanging-Z1-P4-AvaasaDNMX-flat70(1)r.jpg
+                        " alt="food" class="imgSlider"/>
+                    </div>
+                    <div class="item" class="imageslide">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-MainBannerDailyChanging-Z1-P5-yovishKimayra-min55.jpg
+                        " alt="food" class="imgSlider"/>
+                    </div>
+                    <div class="item" class="imageslide">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-MainBannerDailyChanging-Z1-P6-louisphilippeVanHeusen-upto40.jpg
+                        " alt="food" class="imgSlider"/>
+                    </div>
+                    <div class="item" class="imageslide">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-MainBannerDailyChanging-Z1-P7-RelianceJewelsJyoalukkas-under2499.jpg
+
+                        " alt="food" class="imgSlider"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-FREEShippingStrip.jpg"
+     alt="freeshipping" class="imgfix">
+        </div>
+        <div>
+    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-RedCarpetSponsors-Sectionheader.gif"
+     alt="red carpet sponsors" class="imgfix">
+        </div>
+
+
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide2">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-SponsorCarouselBanner-Z3-P1-Mns-min30.jpg
+                         " alt="food" class="imgSlider2"/>
+                    </div>
+                    <div class="item" class="imageslide2">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-SponsorCarouselBanner-Z3-P2-Snitch-Min60.jpg"
+                         alt="food" class="imgSlider"/>
+                    </div>
+                    <div class="item" class="imageslide2">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-SponsorCarouselBanner-Z3-P4-wrangler-min50.jpg"
+                         alt="food" class="imgSlider2"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/ICICI%20Bank-1440x128.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/21092023-paytm-1440x128%202.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/21092023-mob-1440x128%202.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div><div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/1440x128-Paytm22.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TodaysTopHits-Sectionheader.jpg"
+              alt="top deals" class="imgfix">
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-TopBrandBanner-Z3-P4-MnsUSPA-upto30.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-TopBrandBanner-Z3-P7-KazoRarerabbit-upto50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-28092023-TopBrandBanner-Z3-P3-LabelRituKumar-upto600.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-TopBrandBanner-Z3-P5-PNG-upto20.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-TopBrandBanner-Z3-P6-Giva-upto80.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/10082023-UHP-D-TOP-GAP-Flat80.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-WalletOffer-InviteYourFriend.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/2192023-PLPStrip-RelianceOne-Points-1440x128.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-BigTicketBrands-Sectionheader.jpg"
+             alt="big tickett brands" class="imgfix" >      
+        </div>
+        <div >
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-BigTicketBrands-M&S-Upto70.jpg"
+             alt="london" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TopBrandsTile-Leewrangler-min50.jpg"
+             alt="lee wrangler" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-BigTicketBrands-GAP-Upto50.jpg"
+             alt="gap" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-BigTicketBrands-Snitch-Min60.jpg"
+             alt="snitch" class="sidebysideimg">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Bestsellers-1-Mens-Upto80.jpg"
+             alt="1" class="sidebysideimg2">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Bestsellers-2-WomenWesternwear-Upto80.jpg"
+             alt="2" class="sidebysideimg2">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Bestsellers-3-WomenEthnicwear-Starting249.jpg"
+             alt="3" class="sidebysideimg2">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TodaysHotFavourites-Sectionheader.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                    <li data-target="#devCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-Dailybanner-1-Clarks-Stevemadden-Upto60.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-Dailybanner-2-Clarks-Stevemadden-Upto60.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-Dailybanner-3-Campus-Go21-Min55.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-Dailybanner-4-Kotty-Glito-Starting499.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-Dailybanner-5-Christofano-Hiattitude-Under999.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DailyAListers-Sectionheaders.jpg"
+             alt="daily a listeners" class="imgfix">
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/MicrosoftTeams-image%20(5)%20-%20adidas.png
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/30092023-D-UHP-DailyM-1-GAP.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/30092023-D-UHP-DailyM-2-PNgadgil.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/30092023-D-UHP-DailyM-Campus.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-HeroStylesForHim-Sectionheader.jpg" 
+             alt="" class="imgfix">
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                    <li data-target="#devCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-uhphim-z13-p1-brooksbrothers-scotch&soda-upto50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-uhphim-z13-p2-spykar-indianterrain-min50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-uhphim-z13-p3-lee-wrangler-min40.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-uhphim-z13-p4-jack&jones-uspa-min55.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-30092023-uhphim-z13-p5-superdry-gas-upto50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-ForTheFrontPageDivas-Sectionheader.jpg"
+             alt="for the front page" class="imgfix">
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                    <li data-target="#devCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-300923-UHPHER-Z14-1-CATWALK-EVERQUPID-MIN50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-300923-UHPHER-Z14-2-RITUKUMAR-MASABA-UPTO60.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-300923-UHPHER-Z14-3-LIFESTYLE-UPTO60.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-300923-UHPHER-Z14-4-FOREVERNEW-ALDO-UPTO50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-280923-UHPHER-Z14-5-FILA-CAMPUS-MIN50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/21092023-NEW%20ARRIVALS_Desktop.jpg" 
+             alt="new arrivals" class="imgfix">
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                    <li data-target="#devCarousel" data-slide-to="4"></li>
+                    <li data-target="#devCarousel" data-slide-to="5"></li>
+                    <li data-target="#devCarousel" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-27092023-NC-Z20-G-Shock1.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-NC-1-Z20-Minimalist-Plum-Starting199.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-NC-2-Z20-Teamspirit-Matchitt-Starting90.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-NC-3-Fastrack-Danielklein-Starting799.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-NC-4-Z20-PCjewels-Kalyan-Upto60.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-NC-5-Z20-Lavie-Baggit-Upto70.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-NC-6-Z20-Rayban-Tedsmith-Starting499.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-UnmissiableDeals_Sectionheader.jpg" 
+             alt="" class="imgfix">
+        </div>
+        <div class="image-slider-container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                    <li data-target="#devCarousel" data-slide-to="4"></li>
+                    <li data-target="#devCarousel" data-slide-to="5"></li>
+                    <li data-target="#devCarousel" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="item active" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-JIT-1-Z13-Ishin-Anubhutee-Min50.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-JIT-2-Z13-Jack&Jones-Kimayra-Min60.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-JIT-3-Z13-Ivoc-Aask-Min55(F).jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-JIT-4-Z13-Anubhutee-Even-Flat55.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-JIT-5-Z13-Gulmohar-Jaipur-5080.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-JIT-6-Z13-Ivoc-Kotty-Starting249.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                    <div class="item" class="imageslide3">
+                        <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-29092023-JIT-7-Z13-Dillinger-Janasya-Min60.jpg
+                        " alt="food" class="imgSlider3"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Trends-Avaasa-DNMX-Netplay-Upto70.jpg"
+             class="sidebysideimg2">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Trends-Budajeans-Fyrerose-Acai-Upto60.jpg"
+             class="sidebysideimg2"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Trends-Altheory-Outryt-Min50.jpg"
+             class="sidebysideimg2"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-GiftCard.gif" alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-EthnicwearCollection-Header.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-EthnicwearCollection-AvaasaSiyaahi-min40.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-EthnicwearCollection-fashorgulmohar-min50.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-EthnicwearCollection-indiepickskalanikethan-min40.jpg"
+             alt="" class="sidebysideimg">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Footwear-Header.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Footwear-ReebokPuma-min55.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Footwear-skechersAdidas-upto50.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Footwear-uspaasics-min40.jpg"
+             alt="" class="sidebysideimg">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-NCTiles-header.jpg" 
+            alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-NCTiles-stevemaddenaldo-upto50.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-NCTiles-tommyhilfigerDamilano-upto50.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-NCTiles-titanfastrack-upto40.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-NCTiles-porticojaipurfabric-starting499.jpg"
+             alt="" class="sidebysideimg">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Kidswear-Header.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Kidswear-kgfrendzriogirls-starting149.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Kidswear-maxcutecumber-starting299.jpg"
+             alt="" class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Kidswear-dnmxboysuspakids-starting399.jpg"
+             alt="" class="sidebysideimg">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Hiddengems-header.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Hiddengems-barrelsoil-upto65.jpg"
+             class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Hiddengems-colins-min50.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Hiddengems-mavi-min50.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Hiddengems-grimelange-upto65.jpg"
+             class="sidebysideimg"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-CelebritySectionTiles-header.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-CelebritySectionTiles-levis-min50.jpg"
+             class="sidebysideimg2">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-CelebritySectionTiles1-arrow-upto50.jpg"
+             class="sidebysideimg2"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-CelebritySectionTiles-puma-min50.jpg"
+             class="sidebysideimg2"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Header.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-SuperstarBrandTiles-gap-upto50.jpg"
+             class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-SuperstarBrandTiles-gasGant-upto60.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-SuperstarBrandTiles-mns-min40.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-SuperstarBrandTiles-berrylicious-min50.jpg"
+             class="sidebysideimg"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-ctc-header.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-ClassicBrandTiles-Leewrangler-min50.jpg"
+             class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-ClassicBrandTiles-allensollyvanheusen-min40.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-ClassicBrandTiles-dennislingoivoc-min60.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-ClassicBrandTiles-maxstyli-starting199.jpg"
+             class="sidebysideimg"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TrendsBrandTiles-header.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TrendsBrandTiles-FIGRio-upto70.jpg"
+             class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/vperformax-min50.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TrendsBrandTiles-pointcoveriogirls-min60.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-TrendsBrandTiles-siyaahi-3060.jpg"
+             class="sidebysideimg"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Home&Kitchen-1-Home&Kitcher.jpg"
+             class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Home&Kitchen-2-portico-homecentre-upto50.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Home&Kitchen-3-Story-Homeexpression-upto70.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-Home&Kitchen-4-Random-Omesake-Starting299.jpg"
+             class="sidebysideimg"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-Sectionheader.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-1-AjioGold.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-2-Trends.jpg"
+             class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-3-Max.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-4-Westernwear.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-5-InternationalBrands.jpg"
+             class="sidebysideimg"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-6-Accessories.jpg"
+             class="sidebysideimg">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-7-Home.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-8-Sportswear.jpg"
+             class="sidebysideimg"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-9-Snekerhood.jpg"
+             class="sidebysideimg"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-10-UpcomingBrands.jpg"
+             class="sidebysideimg2">
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-11-Wedding.jpg"
+             class="sidebysideimg2"> 
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-22092023-DiscoverOnlineStores-12-Watches.jpg"
+             class="sidebysideimg2"> 
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/21092023-D-Discover%20Online%20Stores.jpg"
+             alt="" class="imgfix">
+        </div>
+        <div>
+            <img src="https://assets.ajio.com/cms/AJIO/WEB/08032022-D-unisex-ajiocares-strip%20new%20d.jpg"
+             alt="" class="imgfix">
+        </div>
+
+
+
+        
+
+
+        <footer class="footer">
+            <div class="ftrcontainer">
+                <h3>Ajio</h3>
+                <h4>Who We Are</h4>
+                <h4>Join Our Team</h4>
+                <h4>Terms & Conditions</h4>
+                <h4>We Respect Your privacy</h4>
+                <h4>Fees & Payments</h4>
+                <h4>Returns & Refund Policy</h4>
+                <h4>Promotion Terms & Conditions</h4>    
+            </div>
+            <div class="ftrcontainer">
+                <h3>Help</h3>
+                <h4>Track Your Order</h4>
+                <h4>Frequently Asked Questions</h4>
+                <h4>Returns</h4>
+                <h4>Cancelations</h4>
+                <h4>Payments</h4>
+                <h4>Customercare</h4>
+                <h4>How Do I Reedem My Coupon</h4>
+            </div>
+            <div class="ftrcontainer">
+                <h3>Shop by</h3>
+                <h4>Men</h4>
+                <h4>Women</h4>
+                <h4>Kids</h4>
+                <h4>Indie</h4>
+                <h4>Stores</h4>
+                <h4>New Arrivals</h4>
+                <h4>Brand Directory</h4>
+                <h4>Home</h4>
+                <h4>Collections</h4>
+            </div>
+            <div class="ftrcontainer">
+                <h3>Follow us</h3>
+                <h4>Facebook</h4>
+                <h4>Instagram-AJIOlife</h4>
+                <h4>Instagram-AJIO LUXE</h4>
+                <h4>Twiter</h4>
+                <h4>Pinterest</h4>
+            </div>
+             
+        </footer>
+        <script>
+            window.onload=onloadPage()
+            
+       
+           
+        </script>
+    </body>
+</html>
